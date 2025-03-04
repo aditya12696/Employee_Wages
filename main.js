@@ -7,3 +7,4 @@ if (attendance === EMPLOYEE_PRESENT) {
 } else {
     console.log("Employee is Absent");
 }
+  
