@@ -71,7 +71,7 @@ const partWorkDays = empDailyData
     .map(record => `Day ${record.day}`);
 console.log("Part Working Days:", partWorkDays);
 
-
+  
 const noWorkDays = empDailyData
     .filter(record => record.hoursWorked === 0)
     .map(record => `Day ${record.day}`);
